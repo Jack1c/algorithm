@@ -11,6 +11,8 @@ public class LinkedList<E> {
     }
 
 
+
+
     //插入
     public boolean add(E e){
         return true;
