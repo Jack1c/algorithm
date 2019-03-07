@@ -4,14 +4,12 @@ public class LinkedList<E> {
 
     private Node<E> fist = new Node<E>();
     private Node<E> last = new Node<E>();
+
     private static class Node<E>{
         Node<E> prev;
         Node<E> next;
         E e;
     }
-
-
-
 
     //插入
     public boolean add(E e){
